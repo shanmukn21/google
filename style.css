@@ -1,0 +1,205 @@
+
+        * {
+            font-family: sans-serif;
+            font-size: 13px;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        html{
+            height:100%;
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background: white;
+        }
+
+        header {
+            min-height: 48px;
+            padding: 8px;
+            gap: 4px;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            align-items: center;
+        }
+
+        header a {
+            margin-right: 15px;
+        }
+
+        header svg {
+            padding: 8px;
+            max-width: 24px;
+            max-height: 24px;
+        }
+
+        #uname {
+            margin-left: 11px;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            min-width: 32px;
+            min-height: 32px;
+            background-color: #33691e;
+            font-size: 16px;
+            font-stretch: 100%;
+            color: white;
+            font-weight: 500;
+        }
+
+        header p {
+            padding: 8px;
+        }
+
+        section {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #srchbar {
+            margin-bottom: 16px;
+            padding-left: 8px;
+            max-width: 553px;
+            min-height: 44px;
+            max-height: 44px;
+            border-radius: 44px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            box-shadow: 0 1px 6px 0 #20212447;
+        }
+
+        #srchbar svg,
+        .cmra {
+            min-width: 21px;
+            min-height: 21px;
+
+        }
+
+        .srchi path {
+            fill: rgb(128, 128, 128);
+        }
+
+        .cmra {
+            background-image: url(camera.svg);
+            min-width: 21px;
+            min-height: 21px;
+            background-color: transparent;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 21px 21px;
+            height: 100%;
+            outline: 0;
+            padding: 8;
+            margin-right: 16px;
+        }
+
+        #srchbar svg {
+            padding: 8px;
+        }
+
+        #gglei {
+            margin-top: 100px;
+            margin-bottom: 38px;
+        }
+
+        input {
+            width: 439px;
+            min-height: 42px;
+            font-size: 16px;
+            outline: 0px;
+            background-color: #ffffff;
+        }
+
+        @media (max-width:600px) {
+            input {
+                width: 225px;
+            }
+        }
+
+        input[type="text"]::-webkit-calendar-picker-indicator {
+            background-color: #ffffff;
+        }
+
+        #shortcuts {
+            align-items: center;
+            justify-content: center;
+            max-width: 461px;
+            max-height: 224px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        a {
+
+            text-decoration: none;
+            color: black;
+        }
+
+        #shortcuts a {
+            min-width: 112px;
+            min-height: 112px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #shortcuts img {
+            margin-top: 12px;
+        }
+
+        #shortcuts a div {
+            text-align: center;
+            border-radius: 50%;
+            background-color: #e1e3e1;
+            min-width: 48px;
+            min-height: 48px;
+            max-width: 48px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: right;
+        }
+
+        #customize {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+            margin: 0px 16px 16px 0px;
+            padding: 8px 16px;
+            height: 16px;
+            border-radius: 16px;
+            background-color: #d3e3fd;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+        }
+
+        #pensil {
+            background-image: url(pencil.svg);
+            min-width: 16px;
+            min-height: 16px;
+            background-color: transparent;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 16px 16px;
+            height: 100%;
+            outline: 0;
+        }
+
+        #customize path {
+            max-width: 16px;
+            max-height: 16px;
+        }
+    
